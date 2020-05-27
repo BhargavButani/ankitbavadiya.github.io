@@ -47,6 +47,11 @@
     border-radius: 10px;
 }
 
+::selection {
+    color: var(--clr-accent);
+    background-color: var(--clr-light);
+}
+
 html{
     scroll-behavior: smooth;
 }
