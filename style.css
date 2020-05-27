@@ -47,7 +47,7 @@
     border-radius: 10px;
 }
 
-::-webkit-selection {
+::selection {
     color: #ffff4d;
     background-color: 000000;
 }
