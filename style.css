@@ -48,8 +48,8 @@
 }
 
 ::selection {
-    color: var(--clr-accent);
-    background-color: var(--clr-light);
+    color: #ffff4d;
+    background-color: 000000;
 }
 
 html{
