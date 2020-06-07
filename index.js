@@ -19,3 +19,15 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+function setTheme() {
+    sta = document.getElementById('themeBox').checked;
+    if(sta==true){
+        document.documentElement.style.setProperty('--clr-light','#000');
+        document.documentElement.style.setProperty('--clr-dark','#fff');
+    }
+    else{
+        document.documentElement.style.setProperty('--clr-light','#fff');
+        document.documentElement.style.setProperty('--clr-dark','#000');   
+    }
+}
