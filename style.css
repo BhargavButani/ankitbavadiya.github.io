@@ -55,7 +55,45 @@
 html{
     scroll-behavior: smooth;
 }
-
+/*For theme Changer*/
+.themeBtn{
+    z-index: 1100;
+}
+.tBox{
+    display: none;
+}
+.themeBtn label{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.fa-sun{
+    color: orange;
+    font-size: 25px;
+    text-shadow: 0 0 20px orange;
+    transform: translateX(25px);
+    transition: .3s;
+}
+.fa-moon{
+    color: white;
+    font-size: 25px;
+    text-shadow: 0 0 20px white;
+    transform: translateX(0px);
+    opacity: 0;
+    transition: .3s;
+}
+#themeBox:checked ~ label > .fa-sun{
+    opacity: 0;
+    transform: translateX(0px);
+}
+#themeBox:checked ~ label > .fa-moon{
+    opacity: 1;
+    transform: translateX(-25px);
+}
 
 /* The progress container (grey background) */
 .progress-container {
@@ -183,8 +221,8 @@ header{
 
 .nav{
     position: fixed;
-    background: var(--clr-dark);
-    color: var(--clr-light);
+    background: var(--clr-light);
+    color: var(--clr-dark);
     top: 0;
     bottom: 0;
     left: 0;
@@ -417,8 +455,8 @@ header{
 /* My Work */
 
 .my-work{
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
     text-align: center;
 }
 
