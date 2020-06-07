@@ -55,6 +55,14 @@
 html{
     scroll-behavior: smooth;
 }
+
+hr{
+    margin-left: 10%; margin-right: 10%;
+    height:1px;
+    border-width:0;
+    color: var(--clr-dark);
+    background-color: var(--clr-dark);
+}
 /*For theme Changer*/
 .themeBtn{
     z-index: 1100;
