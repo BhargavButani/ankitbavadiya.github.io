@@ -57,7 +57,7 @@ html{
 }
 
 hr{
-    margin-left: 10%; margin-right: 10%;
+    margin-left: 10%; margin-right: 10%; margin-bottom: 50px;
     height:1px;
     border-width:0;
     color: var(--clr-dark);
@@ -457,6 +457,79 @@ header{
         grid-area: img;
         position: relative;
         z-index: 2;
+    }
+}
+
+.section__title--yt{
+    text-align: center;
+}
+/* Codepen pens */
+.section__title--cp{
+    text-align: center;
+}
+.my-pen{
+  overflow: auto;
+  width: 100%;
+  float: left;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+.my-pen::-webkit-scrollbar{
+    display: none;
+}
+.my-pen span{
+  height: 400px;
+  width: 100%;
+}
+
+.my-pen span iframe{
+    width: 20%;
+}
+
+.my-pen span a{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.scrollbtn{
+    margin-left: 45%;
+}
+
+.scrollbtn .sbtn{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: var(--clr-accent);
+    border: solid 1px;
+    color: var(--clr-accent);
+}
+
+.sbtn:focus{
+    outline: none;
+}
+
+@media (max-width: 700px) {
+    .my-pen span iframe{
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .my-pen span iframe{
+        width: 60%;
+    }
+    .scrollbtn{
+        margin-left: 33%;
+    }
+}
+
+@media (max-width: 500px) {
+    .my-pen span iframe{
+        width: 90%;
     }
 }
 
