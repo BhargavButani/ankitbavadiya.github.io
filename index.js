@@ -31,3 +31,13 @@ function setTheme() {
         document.documentElement.style.setProperty('--clr-dark','#000');   
     }
 }
+
+const buttonRight = document.getElementById('slideRight');
+const buttonLeft = document.getElementById('slideLeft');
+
+    buttonRight.onclick = function () {
+      document.getElementById('cp').scrollLeft += 1000;
+    };
+    buttonLeft.onclick = function () {
+      document.getElementById('cp').scrollLeft -= 1000;
+    };
