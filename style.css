@@ -34,17 +34,17 @@
     }
 }
 
-/* Genral Styles */
+/* All Genral Styles */
 
 ::-webkit-scrollbar{
-    width: 6px;
+    width: 7px;
 }
 ::-webkit-scrollbar-track{
     background: transparent;
 }
 ::-webkit-scrollbar-thumb{
     background: var(--clr-accent);
-    border-radius: 10px;
+    border-radius: 11px;
 }
 
 ::selection {
