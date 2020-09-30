@@ -152,12 +152,12 @@ strong{ font-weight: var(--fw-reg);}
 
 .btn{
     display: inline-block;
-    padding: .5em 2.5em;
+    padding: 0.5em 2.5em;
     background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
     cursor: pointer;
-    font-size: .8rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
@@ -185,7 +185,7 @@ h2{ font-size: var(--fs-h2)}
 h3{ font-size: var(--fs-h3)}
 
 .section__title{
-    margin-bottom: .25em;
+    margin-bottom: 0.25em;
 }
 
 .section__title--intro{
@@ -204,7 +204,7 @@ h3{ font-size: var(--fs-h3)}
 .section__subtitle--intro,
 .section__subtitle--about{
     background: var(--clr-accent);
-    padding: .25em 1em;
+    padding: 0.25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
@@ -263,7 +263,7 @@ header{
 }
 
 .nav-toggle{
-    padding: .25em;
+    padding: 0.25em;
     background: transparent;
     border: 0;
     cursor: pointer;
